@@ -2,30 +2,24 @@
   "name": "expo-keycloak-auth",
   "version": "1.0.12",
   "description": "expo-auth-session wrapper for keycloak authentication",
-  "author": "rubhiauliatirtacom",
   "license": "MIT",
-  "repository": "rubhiauliatirta/expo-keycloak-auth",
   "scripts": {},
   "keywords": [
-   "expo",
-   "keycloak",
-   "AuthSession",
-   "oauth2",
-   "openid",
-   "react native"
+    "expo",
+    "keycloak",
+    "AuthSession",
+    "oauth2",
+    "openid",
+    "react native"
   ],
-  "devDependencies": {
-    "expo-yarn-workspaces": "^1.2.1"
-  },
   "peerDependencies": {
-    "@react-native-async-storage/async-storage": "^1.15.4",
-    "expo": "^41.0.0",
-    "expo-auth-session": "~3.2.3",
-    "expo-random": "~11.1.2",
-    "expo-status-bar": "~1.0.4",
-    "react": "16.13.1"
+    "@react-native-async-storage/async-storage": "^1.18.2",
+    "expo": "^49.0.13",
+    "expo-auth-session": "~5.2.0",
+    "expo-random": "~13.4.0",
+    "react": "18.2.0"
   },
-  "workspaces": [
-    "example"
-  ]
+  "dependencies": {
+    "expo": "^49.0.13"
+  }
 }
